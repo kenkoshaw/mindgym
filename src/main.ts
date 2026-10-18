@@ -2,7 +2,6 @@ import './style.css';
 import { registerSW } from 'virtual:pwa-register';
 import { h } from './dom';
 import type { Game } from './types';
-import { sudoku } from './games/sudoku';
 import { hangul } from './games/hangul';
 import { timeline } from './games/timeline';
 import { nback } from './games/nback';
@@ -10,7 +9,7 @@ import { digitSpan } from './games/digitspan';
 
 registerSW({ immediate: true });
 
-const games: Game[] = [sudoku, hangul, timeline, nback, digitSpan];
+const games: Game[] = [hangul, timeline, nback, digitSpan];
 const app = document.getElementById('app')!;
 let cleanup: (() => void) | null = null;
 

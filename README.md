@@ -1,6 +1,6 @@
 # Mind Gym
 
-Offline brain games for your phone: memory, thinking and facts. It is a Progressive Web App (PWA), so once installed it works without a connection.
+Offline brain games for your phone: memory, thinking and facts. Sudoku now lives in its own app: [kenkoshaw/sudoku](https://github.com/kenkoshaw/sudoku). It is a Progressive Web App (PWA), so once installed it works without a connection.
 
 Live: https://kenkoshaw.github.io/mindgym/
 
@@ -8,7 +8,6 @@ Live: https://kenkoshaw.github.io/mindgym/
 
 | Game | What it trains |
 | --- | --- |
-| Sudoku | Logic. Random puzzle each time, 4 difficulty levels, unique solution guaranteed. Notes, hints, best times. |
 | Hangul Speed-Read | Reading Korean. 60-second rounds: read a syllable block and pick or type its romanisation. 4 levels plus a letter chart. |
 | Timeline | History. Put 4–6 events in date order. Filter by East Asia or world history. |
 | N-Back | Working memory. Spot squares (and letters, in dual mode) that match the one *n* steps back. |
